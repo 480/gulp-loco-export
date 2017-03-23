@@ -1,7 +1,7 @@
 {
   "name": "gulp-loco-export",
   "description": "gulp loco api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/byseob/gulp-loco-export",
   "author": {
     "name": "Matthew Kim",
@@ -28,13 +28,13 @@
     "gulp": "^3.9.1",
     "gulp-file": "^0.3.0",
     "gulp-util": "^3.0.8",
+    "node-dir": "^0.1.16",
     "through2": "^2.0.3",
     "unzip": "^0.1.11"
   },
   "devDependencies": {
     "assert": "^1.4.1",
-    "mocha": "^3.2.0",
-    "node-dir": "^0.1.16"
+    "mocha": "^3.2.0"
   },
   "scripts": {
     "test": "mocha -R spec test/index"
