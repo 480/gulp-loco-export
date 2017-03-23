@@ -1,20 +1,3 @@
-# gulp-loco-export v0.0.1
-
-> Use urllib to call api to Loco.
-
-
-## Install
-
-```
-npm install --save-dev https://github.com/byseob/gulp-loco-export.git
-```
-
-
-## Example
-
-### import test.pot to loco in gulpfile.js  
-
-```js
 /**
  * Created by matthew on 2017. 3. 23..
  */
@@ -54,16 +37,3 @@ describe('gulp-loco-export', function() {
 
   });
 });
-
-```
-
-## options
-Option     | Type                             | Description
----------- | -------------------------------- | --------------
-key        | ((string))(_required_)           | Loco API Key
-ext        | ((string))                       | pot, json, po ... reference from localize.biz
-
-## License
-
-MIT
-# gulp-loco-export
